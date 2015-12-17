@@ -18,7 +18,7 @@
   <packaging>pom</packaging>
   <!--
 	DESCRIPTION
-  --> 
+  -->
   <name>OpenChrom Third-Party Libraries</name>
   <description>
 	This bundle offers several third party libraries.
@@ -26,7 +26,7 @@
   <url>http://sourceforge.net/projects/openchrom3rdpl</url>
   <!--
 	LICENSES
-  -->  
+  -->
   <licenses>
     <!--
 	  Plug-ins that are part of compilation.
@@ -34,7 +34,7 @@
     <license>
       <comments>NetCDF 4.3.19 (http://www.unidata.ucar.edu/software/netcdf-java)</comments>
       <name>MIT</name>
-      <url>http://opensource.org/licenses/MIT</url> 
+      <url>http://opensource.org/licenses/MIT</url>
     </license>
     <license>
       <comments>Groovy 2.0.2 (http://groovy.codehaus.org)</comments>
@@ -55,7 +55,7 @@
       <comments>JOGL 2.0.0 (http://jogamp.org/jogl/www)</comments>
       <name>BSD License</name>
       <url>http://opensource.org/licenses/BSD-2-Clause</url>
-    </license>      
+    </license>
     <license>
       <comments>jzy3d 0.9.1 (http://jzy3d.org)</comments>
       <name>BSD License</name>
@@ -82,12 +82,12 @@
     <license>
       <comments>CDK (https://sourceforge.net/projects/cdk)</comments>
       <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>  
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
     <license>
       <comments>OPSIN (http://opsin.ch.cam.ac.uk)</comments>
       <name>Artistic v2.0</name>
-      <url>http://opensource.org/licenses/Artistic-2.0</url>  
+      <url>http://opensource.org/licenses/Artistic-2.0</url>
     </license>
     <license>
       <comments>Neuroph 2.8.0 (http://neuroph.sourceforge.net)</comments>
@@ -107,24 +107,29 @@
     <license>
       <comments>BioJava 3.0.7 (http://www.biojava.org)</comments>
       <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
-    </license>     
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+    </license>
     <license>
       <comments>Jmol 13.0.8 (http://jmol.sourceforge.net)</comments>
       <name>LGPL v2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url> 
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
     </license>
     <license>
       <comments>Jython 2.7.0 (http://www.jython.org)</comments>
       <name>Python Software Foundation License v2.0</name>
-      <url>http://opensource.org/licenses/Python-2.0</url> 
+      <url>http://opensource.org/licenses/Python-2.0</url>
     </license>
     <license>
       <comments>Apache PDFBox 1.8.7 (https://pdfbox.apache.org)</comments>
       <name>Apache License v2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0</url>
     </license>
-  </licenses> 
+    <license>
+      <comments>Scala (http://www.scala-lang.org/)</comments>
+      <name>BSD License</name>
+      <url>http://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
   <!--
 	DEVELOPERS
   -->
@@ -133,6 +138,15 @@
       <id>eselmeister</id>
       <name>Philip Wenig</name>
       <email>philip.wenig [at] openchrom.net</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>jbinder</id>
+      <name>Janos Binder</name>
+      <email>janos.binder [at] openchrom.net</email>
       <timezone>+1</timezone>
       <roles>
         <role>Developer</role>
@@ -162,14 +176,14 @@
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.linux.x86</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.linux.x86_64</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.macosx</module>  
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.macosx</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.solaris.x86</module>
     <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.win32.x86_64</module>
-    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.win32.x86</module>  
-    <module>../../features/net.openchrom.thirdpartylibraries.jogl.feature</module>    
+    <module>../../plugins/net.openchrom.thirdpartylibraries.jogl.win32.x86</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.jogl.feature</module>
     <!-- jzy3d -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jzy3d</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.jzy3d.feature</module>    
+    <module>../../features/net.openchrom.thirdpartylibraries.jzy3d.feature</module>
     <!-- Barcode4J -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.barcode4j</module>
     <module>../../features/net.openchrom.thirdpartylibraries.barcode4j.feature</module>
@@ -190,7 +204,7 @@
     <module>../../features/net.openchrom.thirdpartylibraries.matlabcontrol.feature</module>
     <!-- BioJava -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.biojava</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.biojava.feature</module>   
+    <module>../../features/net.openchrom.thirdpartylibraries.biojava.feature</module>
     <!-- Jmol -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.jmol</module>
     <module>../../features/net.openchrom.thirdpartylibraries.jmol.feature</module>
@@ -202,7 +216,10 @@
     <module>../../features/net.openchrom.thirdpartylibraries.jython.feature</module>
     <!-- PDFBox -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.pdfbox</module>
-    <module>../../features/net.openchrom.thirdpartylibraries.pdfbox.feature</module>      
+    <module>../../features/net.openchrom.thirdpartylibraries.pdfbox.feature</module>
+    <!-- Scala -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.scala</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.scala.feature</module>
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
