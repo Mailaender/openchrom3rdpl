@@ -6,9 +6,30 @@ Bundle-Version: 2.11.7.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.scala.Activator
 Bundle-Vendor: OpenChrom
 Require-Bundle: org.eclipse.core.runtime
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Export-Package: net.openchrom.thirdpartylibraries.scala,
+ org.scalactic,
+ org.scalatest,
+ org.scalatest.concurrent,
+ org.scalatest.enablers,
+ org.scalatest.events,
+ org.scalatest.exceptions,
+ org.scalatest.fixture,
+ org.scalatest.junit,
+ org.scalatest.matchers,
+ org.scalatest.mock,
+ org.scalatest.path,
+ org.scalatest.prop,
+ org.scalatest.selenium,
+ org.scalatest.tagobjects,
+ org.scalatest.tags,
+ org.scalatest.testng,
+ org.scalatest.time,
+ org.scalatest.tools,
+ org.scalatest.verb,
+ org.scalatest.words,
+ org.scalautils,
  scala,
  scala.actors,
  scala.actors.remote,
