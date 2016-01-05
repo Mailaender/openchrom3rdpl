@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="libraries/scala-compiler.jar"/>
 	<classpathentry kind="lib" path="libraries/scala-library.jar"/>
 	<classpathentry kind="lib" path="libraries/scala-reflect.jar"/>
+	<classpathentry kind="lib" path="libraries/scalatest_2.11-2.2.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
