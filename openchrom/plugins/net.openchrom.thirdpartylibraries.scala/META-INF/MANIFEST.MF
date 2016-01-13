@@ -152,8 +152,8 @@ Export-Package: net.openchrom.thirdpartylibraries.scala,
  scala.util.control,
  scala.util.hashing,
  scala.util.matching
-Bundle-ClassPath: .,
- libraries/scala-actors-2.11.0.jar,
+Bundle-ClassPath: libraries/scala-actors-2.11.0.jar,
  libraries/scala-compiler.jar,
  libraries/scala-library.jar,
- libraries/scala-reflect.jar
+ libraries/scala-reflect.jar,
+ libraries/scalatest_2.11-2.2.4.jar
