@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>net.openchrom.thirdpartylibraries.scala</artifactId>
-  <version>2.11.7.SNAPSHOT</version>
+  <version>2.11.7-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
   
 </project>
