@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Scala
-Bundle-SymbolicName: net.openchrom.thirdpartylibraries.scala
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.scala;singleton:=true
 Bundle-Version: 2.11.7.qualifier
 Bundle-Activator: net.openchrom.thirdpartylibraries.scala.Activator
-Bundle-Vendor: OpenChrom
+Bundle-Vendor: Chemclipse
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
@@ -31,12 +31,6 @@ Export-Package: net.openchrom.thirdpartylibraries.scala,
  org.scalatest.words,
  org.scalautils,
  scala,
- scala.actors,
- scala.actors.remote,
- scala.actors.scheduler,
- scala.actors.threadpool,
- scala.actors.threadpool.helpers,
- scala.actors.threadpool.locks,
  scala.annotation,
  scala.annotation.meta,
  scala.annotation.unchecked,
@@ -152,8 +146,7 @@ Export-Package: net.openchrom.thirdpartylibraries.scala,
  scala.util.control,
  scala.util.hashing,
  scala.util.matching
-Bundle-ClassPath: libraries/scala-actors-2.11.0.jar,
- libraries/scala-compiler.jar,
+Bundle-ClassPath: libraries/scala-compiler.jar,
  libraries/scala-library.jar,
  libraries/scala-reflect.jar,
  libraries/scalatest_2.11-2.2.4.jar
