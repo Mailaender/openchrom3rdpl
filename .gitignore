@@ -290,4 +290,10 @@ openchrom/plugins/net.openchrom.thirdpartylibraries.jython/libraries/Lib/*py.cla
 openchrom/plugins/net.openchrom.thirdpartylibraries.pdfbox/bin/
 openchrom/features/net.openchrom.thirdpartylibraries.pdfbox.feature/target/
 openchrom/plugins/net.openchrom.thirdpartylibraries.pdfbox/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.scala/bin/
+openchrom/features/net.openchrom.thirdpartylibraries.scala.feature/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.scala/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.scalatest/bin/
+openchrom/features/net.openchrom.thirdpartylibraries.scalatest.feature/target/
+openchrom/plugins/net.openchrom.thirdpartylibraries.scalatest/target/
 openchrom/sites/net.openchrom.thirdpartylibraries.pdfbox.updateSite/target/

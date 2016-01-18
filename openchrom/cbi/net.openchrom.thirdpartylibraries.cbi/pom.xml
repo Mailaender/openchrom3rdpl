@@ -129,6 +129,11 @@
       <name>BSD License</name>
       <url>http://opensource.org/licenses/BSD-3-Clause</url>
     </license>
+    <license>
+      <comments>Scalatest (http://www.scalatest.org/)</comments>
+      <name>Apache License v2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
   </licenses>
   <!--
 	DEVELOPERS
@@ -220,6 +225,9 @@
     <!-- Scala -->
     <module>../../plugins/net.openchrom.thirdpartylibraries.scala</module>
     <module>../../features/net.openchrom.thirdpartylibraries.scala.feature</module>
+    <!-- Scalatest -->
+    <module>../../plugins/net.openchrom.thirdpartylibraries.scalatest</module>
+    <module>../../features/net.openchrom.thirdpartylibraries.scalatest.feature</module>    
     <!-- Update Site (Selected third party libraries) -->
     <module>../../sites/net.openchrom.thirdpartylibraries.updateSite</module>
   </modules>
