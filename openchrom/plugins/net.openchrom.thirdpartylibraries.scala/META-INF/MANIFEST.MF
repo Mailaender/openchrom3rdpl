@@ -127,4 +127,5 @@ Export-Package: net.openchrom.thirdpartylibraries.scala,
  scala.util.matching
 Bundle-ClassPath: libraries/scala-compiler.jar,
  libraries/scala-library.jar,
- libraries/scala-reflect.jar
+ libraries/scala-reflect.jar,
+ .
