@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.thirdpartylibraries.jmatio
+Bundle-ManifestVersion: 2
+Bundle-Name: JMatIO
+Bundle-SymbolicName: net.openchrom.thirdpartylibraries.jmatio
+Bundle-Version: 0.3.0.qualifier
+Bundle-Activator: net.openchrom.thirdpartylibraries.jmatio.Activator
+Bundle-Vendor: Wojciech Gradkowski
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/jmatio.jar
+Export-Package: com.jmatio.io,
+ com.jmatio.types
